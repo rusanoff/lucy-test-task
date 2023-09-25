@@ -27,9 +27,12 @@ const checkoutSlice = createSlice({
         state.products.splice(removingProductIndex, 1);
       }
     },
+    resetCheckout: (state) => {
+      state.products = initialState.products;
+    },
   },
 });
 
-export const { addProduct, removeProduct } = checkoutSlice.actions;
+export const { addProduct, removeProduct, resetCheckout } = checkoutSlice.actions;
 
 export const checkoutReducer = checkoutSlice.reducer;

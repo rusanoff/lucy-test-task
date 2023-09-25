@@ -555,7 +555,7 @@ module.exports = {
     'declaration-block-semicolon-newline-before': 'never-multi-line',
 
     // Запретить пробелы после точек с запятой в блоках объявлений
-    'declaration-block-semicolon-space-after': 'always',
+    'declaration-block-semicolon-space-after': 'off',
 
     // Запретить пробелы перед точками с запятой в блоках объявлений
     'declaration-block-semicolon-space-before': 'never',
