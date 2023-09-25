@@ -19,16 +19,7 @@ type CartProductsListItemProps = {
 };
 
 export const CartProductsListItem = (props: CartProductsListItemProps) => {
-  const {
-    id,
-    name,
-    imageSrc,
-    price,
-    specialPrice,
-    imageWidth = 424,
-    imageHeight = 624,
-    onDelete,
-  } = props;
+  const { id, name, imageSrc, price, specialPrice, imageWidth = 424, imageHeight = 624, onDelete } = props;
 
   return (
     <li className={styles.card}>
@@ -63,11 +54,7 @@ export const CartProductsListItem = (props: CartProductsListItemProps) => {
           {price}
         </span>
 
-        {Boolean(specialPrice) && (
-          <span className={styles.specialPrice}>
-            {specialPrice}
-          </span>
-        )}
+        {Boolean(specialPrice) && <span className={styles.specialPrice}>{specialPrice}</span>}
       </div>
 
       <div className={styles.buttonWrapper}>
