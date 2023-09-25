@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.mainBlock {
+  min-width: 320px;
+  margin-right: 16px;
+}
+
+.imageWrapper {
+  margin-bottom: 12px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.descriptionBlock {
+  font-size: 14px;
+}

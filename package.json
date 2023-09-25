@@ -9,14 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "eslint": "8.50.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.5.0",
+    "classnames": "^2.3.2",
     "eslint-config-next": "13.5.2",
+    "modern-css-reset": "^1.4.0",
     "next": "13.5.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
+    "reset-css": "^5.0.2",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.30",
+    "postcss-scss": "^4.0.8",
+    "prettier-plugin-multiline-arrays": "^2.0.0",
+    "sass": "^1.68.0"
   }
 }

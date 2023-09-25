@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  width: 100%;
+  padding: 11px 40px;
+  background-color: #fff;
+}
+
+.logoLink {
+  height: 43px;
+}
+
+.actions {
+  min-width: 32px;
+}
